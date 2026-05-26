@@ -1,4 +1,8 @@
-# Netlify is used for MDN's meta and contributor documentation only
 [build]
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ./meta"
-  base = "meta/"
+  command = "yarn build"
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

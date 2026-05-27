@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build"
+  command = "mkdir -p build && cp maranatha-wood-work-tec.html build/index.html"
   publish = "build"
 
 [[redirects]]

@@ -45,6 +45,16 @@
     .wa{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;padding:.85rem 1rem;border-radius:999px;text-decoration:none;font-weight:700;z-index:1000}
     .top{position:fixed;right:20px;bottom:80px;background:var(--gold);color:#1d120c;border:0;padding:.7rem .9rem;border-radius:50%;cursor:pointer;display:none}
     @media (max-width:800px){.nav-links{display:none}}
+    .business-description{padding:100px 10%;background:#fff;max-width:none}
+    .description-content{max-width:1100px;margin:auto;text-align:center}
+    .description-content p{line-height:1.9;color:#666;margin-bottom:30px;font-size:18px}
+    .work-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin:50px 0}
+    .work-item{background:#f8f4ed;padding:20px;border-radius:16px;font-weight:600;color:#5a2d14;box-shadow:0 5px 15px rgba(0,0,0,0.05);transition:0.3s}
+    .work-item:hover{transform:translateY(-5px)}
+    .final-text{font-size:20px;color:#444}
+    .contact-cta{margin-top:40px}
+    .contact-btn{display:inline-block;background:#c58b2b;color:white;padding:18px 40px;border-radius:50px;text-decoration:none;font-weight:600;transition:0.3s}
+    .contact-btn:hover{background:#a36f18;transform:translateY(-5px)}
   </style>
 </head>
 <body>
@@ -57,6 +67,34 @@
     <section id="about" class="reveal"><h2 class="section-title">About Our Craft</h2><div class="about-grid"><div><p>Maranatha Wood Work Tec specializes in premium furniture, cabinetry, and custom carpentry using expert joinery and modern finishing standards.</p><div class="stats"><div class="card"><h3 class="counter" data-target="450">0</h3><p>Projects Completed</p></div><div class="card"><h3 class="counter" data-target="15">0</h3><p>Years Experience</p></div><div class="card"><h3 class="counter" data-target="390">0</h3><p>Happy Clients</p></div><div class="card"><h3>100%</h3><p>Quality Guarantee</p></div></div></div><img src="about-workshop.jpg" alt="Woodworking workshop" loading="lazy"></div></section>
 
     <section id="services" class="reveal"><h2 class="section-title">Services</h2><div class="services" id="serviceGrid"></div></section>
+
+    <section class="business-description reveal">
+      <div class="section-title">
+        <h2>Complete Woodworking Solutions</h2>
+        <p>Maranatha Wood Working Technology can handle virtually any type of work that can be done on wood, from custom creations to complete refinishing and restoration.</p>
+      </div>
+      <div class="description-content">
+        <p>We specialize in designing, building, repairing, refinishing, restoring, and transforming all types of wooden structures and furniture with professional craftsmanship and attention to detail.</p>
+        <div class="work-list">
+          <div class="work-item">✔ Doors</div>
+          <div class="work-item">✔ Sofas</div>
+          <div class="work-item">✔ Chairs</div>
+          <div class="work-item">✔ Tables</div>
+          <div class="work-item">✔ Room Dividers</div>
+          <div class="work-item">✔ Backyard Entertaining Areas</div>
+          <div class="work-item">✔ Staircases</div>
+          <div class="work-item">✔ Cabinets</div>
+          <div class="work-item">✔ Interior Wood Design</div>
+          <div class="work-item">✔ Furniture Restoration</div>
+          <div class="work-item">✔ Wood Repairs</div>
+          <div class="work-item">✔ Custom Carpentry</div>
+        </div>
+        <p class="final-text">Whether restoring old home wood furniture or creating brand-new custom projects, Maranatha Wood Working Technology delivers quality craftsmanship, durability, and beautiful finishing.</p>
+        <div class="contact-cta">
+          <a href="mailto:dawithailu123@yahoo.com" class="contact-btn">Please Contact Us</a>
+        </div>
+      </div>
+    </section>
 
     <section id="projects" class="reveal"><h2 class="section-title">Project Gallery</h2><div class="gallery-filter" id="filterBtns"></div><div class="gallery-grid" id="gallery"></div></section>
 
